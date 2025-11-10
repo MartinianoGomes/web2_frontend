@@ -1,10 +1,11 @@
 import "./global.css"
-import { Header } from "./components/Header/Header"
+
+import { BodyGame } from "./components/BodyGame/BodyGame"
 
 export default function app(){
   return(
-    <div className="center">
-      <Header />
+    <div className="app">
+      <BodyGame />
     </div>
   )
 }
