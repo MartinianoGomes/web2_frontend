@@ -1,10 +1,11 @@
-import header from "./header.module.css";
+import headerStyles from "./header.module.css";
 import logo from "../../assets/logo.png"
+import { Info } from "./Info/Info";
 
 export function Header () {
-    return <div className={header.container}>
-        <img src={logo} alt="Logo" />
+    return <div className={headerStyles.header}>
+        <img src={logo}  className={headerStyles.logoHeader} alt="Logo" />
 
-        <div></div>
+        <Info />
     </div>
 }

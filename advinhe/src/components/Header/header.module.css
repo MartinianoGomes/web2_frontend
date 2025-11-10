@@ -1,1 +1,12 @@
-.container {}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .logoHeader {
+    width: 310px;
+    height: 59px;
+
+    margin-top: 72px;
+}
