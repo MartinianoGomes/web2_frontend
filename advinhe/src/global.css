@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     font-size: 16px;
+
+    --white: #ffffff;
+
+    --white-2: #f5f5fa;
+    --white-3: #c3c3c3;
+    --white-4: #afafaf;
+    --white-5: #9b9b9b;
+
+    --black: #000000;
+
+    --blue: #ebebfc;
+    --blue-2: #6363db;
+    --blue-3: #4F4FB9;
+    --blue-4: #4F4FB9;
+
+    --yellow: #FFCF62;
+    --yellow-2: #E8891C;
+    --yellow-3: #691B0A;
+
+    --green: #E1F5EC;
+    --green-2: #03AB4F;
+
+    --font-family: "Noto Sans", sans-serif;
 }
 
 * {
@@ -14,7 +39,7 @@ body {
     font-optical-sizing: auto;
 }
 
-.center {
+.app {
     width: 100%;
     min-height: 100vh;
 
