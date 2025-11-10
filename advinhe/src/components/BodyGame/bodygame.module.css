@@ -1,0 +1,10 @@
+.bodyGame {
+    background-color: var(--white);
+
+    width: 556px;
+    height: 801px;
+
+    border-radius: 12px;
+
+    padding-inline: 32px;
+}
