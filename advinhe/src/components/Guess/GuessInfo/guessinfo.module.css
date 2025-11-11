@@ -1,6 +1,7 @@
-.guessinfo{
+.guessinfo {
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 500;
-    color: var(--blue-3);
+    color: var(--blue-4);
+    margin-bottom: 12px;
 }
