@@ -1,12 +1,11 @@
 import historyLetterStyles from "./historyletter.module.css"
 
-/*interface HistoryLetterProps {
+interface historyLetterProps {
     letter: string
-}*/
-//{letter}: HistoryLetterProps
-//{letter.toUpperCase()}
-export function HistoryLetter () {
+}
+
+export function HistoryLetter ({letter} : historyLetterProps) {
     return <div className={historyLetterStyles.historyletter}>
-        <h1>2</h1>
+        <h1>{letter.toUpperCase()}</h1>
     </div>
 }
