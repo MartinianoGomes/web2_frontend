@@ -1,0 +1,33 @@
+.tipContainer {
+    width: 492px;
+    height: 86px;
+
+    border-radius: 10px;
+    padding: 16px;
+    margin-block: 52px;
+    gap: 16px;
+
+    background-color: var(--blue);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tipContainer .tipIcon {
+    width: 32px;
+}
+
+.tipContainer .tipContent {
+    color: var(--blue-3);
+}
+
+.tipContainer .tipContent h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tipContainer .tipContent p span {
+    font-size: 16px;
+    font-weight: 400;
+}
