@@ -1,4 +1,5 @@
-.form{
+.form {
     display: flex;
-    gap: 2rem;
+    gap: 12px;
+    margin-bottom: 52px;
 }

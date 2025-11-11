@@ -1,5 +1,5 @@
-.guess{
+.guess {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    margin-top: 52px;
 }
