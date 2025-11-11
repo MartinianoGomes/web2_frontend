@@ -1,5 +1,7 @@
 import TipIcon from "../../assets/tip.svg"
 import tipStyles from "../Tip/tip.module.css"
+import { WORDS } from "../../utils/words"
+import { randomWord } from "../SecretWord/SecretWord"
 
 export function Tip () {
     return <div className={tipStyles.tipContainer}>
@@ -7,7 +9,11 @@ export function Tip () {
 
         <div className={tipStyles.tipContent}>
             <h1>Dica</h1>
-            <p><span>Oi</span></p>
+            <p><span>
+                {
+                    WORDS[randomWord].tip
+                }
+                </span></p>
         </div>
     </div>
 }
