@@ -4,13 +4,16 @@ import { SecretWord } from "../SecretWord/SecretWord"
 import { Tip } from "../Tip/Tip"
 import { Guess } from "../Guess/Guess"
 import { HistoryList } from "../HistoryList/HistoryList"
+import { GlobalStorage } from "../GlobalStorage/GlobalStorage";
 
 export function BodyGame() {
     return <div className={BodyGameStyles.bodyGame}>
         <Header />
         <Tip />
-        <SecretWord />
-        < Guess/>
-        < HistoryList/>
+        <GlobalStorage>
+            <SecretWord />
+            <Guess/>
+            <HistoryList/>
+        </GlobalStorage>
     </div>
 }
