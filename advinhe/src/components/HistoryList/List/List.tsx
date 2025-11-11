@@ -1,7 +1,7 @@
-import { HistoryLetter } from "./HistoryLetter/HistoryLetter";
+// import { HistoryLetter } from "./HistoryLetter/HistoryLetter";
 
 export function List () {
     return <div>
-        <HistoryLetter />
+        <h1>H</h1>
     </div>
 }
