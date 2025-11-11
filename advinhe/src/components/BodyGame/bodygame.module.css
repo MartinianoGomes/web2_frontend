@@ -1,7 +1,7 @@
 .bodyGame {
     background-color: var(--white);
 
-    width: 556px;
+    min-width: 556px;
     height: 801px;
 
     border-radius: 12px;

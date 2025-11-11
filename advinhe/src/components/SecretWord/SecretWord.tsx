@@ -3,13 +3,12 @@ import secretWord from "./secretword.module.css"
 import { WORDS } from "../../utils/words"
 
 export function SecretWord  () {
-    
-    /*const numberRandom = () => (Math.random() * 10);
-    const wordChanged = () => {
-        for (const i = numberRandom; i <){}
-    }*/
+    const randomWord = Math.trunc(Math.random() * WORDS.length);
+    const arrayLetters = Array.from(WORDS[randomWord].word);
 
     return <div className={secretWord.secretword}>
-        <SecretLetter />
+        {arrayLetters && arrayLetters.map((letter, index) => {
+            return <SecretLetter key={index} letter={letter} />
+        })}
     </div>
 }
