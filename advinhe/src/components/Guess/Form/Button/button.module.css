@@ -1,4 +1,9 @@
 .button {
     background-color: var(--blue-2);
     border-color: var(--blue-4);
+    border-radius: 7px;
+    border: 2px;
+    width: 106px;
+    height: 46px;
 }
+

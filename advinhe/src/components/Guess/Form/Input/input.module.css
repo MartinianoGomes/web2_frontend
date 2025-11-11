@@ -1,0 +1,14 @@
+.input{
+    display: flex;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    width: 46px;
+    height: 46px;
+    background-color: var(--blue);
+    outline: none;
+}
+
+.input:focus{
+    box-shadow: 0 0 0 2px #4F4FB9;
+}
