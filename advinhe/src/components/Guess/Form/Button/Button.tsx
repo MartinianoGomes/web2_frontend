@@ -1,7 +1,10 @@
-import React from 'react'
+import buttonStyles from "./button.module.css"
+import { ButtonInfo } from "./ButtonInfo/ButtonInfo"
 
 export function Button () {
-  return <div>
-        <Button />
-    </div>
+  return (
+    <button className={buttonStyles.button} type="button">
+      <ButtonInfo />
+    </button>
+  )
 }

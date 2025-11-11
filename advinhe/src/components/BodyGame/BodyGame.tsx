@@ -3,7 +3,7 @@ import { GuessInfo } from "../Guess/GuessInfo/GuessInfo"
 import { Header } from "../Header/Header"
 import { SecretWord } from "../SecretWord/SecretWord"
 import { Tip } from "../Tip/Tip"
-import { Button } from "../Guess/Form/Button/Button"
+import { Form } from "../Guess/Form/Form"
 
 export function BodyGame() {
     return <div className={BodyGameStyles.bodyGame}>
@@ -11,7 +11,7 @@ export function BodyGame() {
         <Tip />
         <SecretWord />
         <GuessInfo />
-        <Button />
+        <Form />
         
     </div>
 }
