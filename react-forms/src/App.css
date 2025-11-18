@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --text-xxs: 0.625rem;
+}
+
 body {
   width: 100%;
   height: 100vh;
