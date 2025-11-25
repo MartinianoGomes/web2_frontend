@@ -1,3 +1,7 @@
 [submodule "helpdesk"]
 	path = helpdesk
 	url = https://github.com/martinianogomes/helpdesk.git
+
+[submodule "refund"]
+	path = refund
+	url = https://github.com/martinianogomes/refund.git
